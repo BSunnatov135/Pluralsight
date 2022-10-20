@@ -1,0 +1,294 @@
+* {
+    box-sizing: inherit;
+}
+button {
+    font-family: inherit;
+}
+.Header {
+    position: relative;
+    display: flex;
+}
+.NavbarContainer {
+    position: relative;
+    height: 56px;
+}
+.Navbar {
+    display: flex;
+    position: fixed;
+    background-color: #181c20;
+    height: 56px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+.SkillsContainer {
+    margin-right: 16px;
+   
+}
+.SkillsLink {
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.SkillsLink:hover {
+    background-color: #f2f2f2;;
+}
+.SkillsIcon {
+    height: 24px;
+    width: 24px;
+    margin-right: 4px;
+}
+.SkillsIcon > svg {
+    fill: linear-gradient(90deg,#e80a89 0%, #f15b2a 100%) ;
+}
+.SkillsText {
+    margin-right: 8px;
+    display: flex;
+}
+.NavbarButtons {
+    display: flex;
+    align-items: center;
+}
+.NavbarButton {
+    margin-top: 6px;
+}
+.NavbarButton_Margin {
+    margin-top: 0;
+}
+.NavbarButtonLink {
+    padding: 0;
+    cursor: pointer;
+    transition: all 300ms;
+    text-decoration: none;
+}
+.NavbarButtonContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 76px;
+    color: rgba(255, 255, 255, 0.95);
+    cursor:pointer;
+}
+.NavbarButtonIcon {
+    height: 24px;
+    width: 24px;
+}
+.NavbarButtonText {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    text-decoration: none;    
+}
+.NavbarButtonActive {
+    background: linear-gradient(90deg,#e80a89 0%,#f15b2a 100%);
+    margin-top: 4px;
+    height: 2px;
+    width: 100%;
+}
+.NavbarButtonIcon_Fill > svg {
+    fill: currentColor;
+}
+.NavbarButtonIcon_Fill {
+    margin-bottom: 2px;
+}
+.SearchContainer {
+    flex:1;
+}
+.Searchbar {
+    padding: 0 12px;
+}
+.SearchLabel {
+    width: 100%;
+}
+.SearchForm {
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    background: rgba(138, 153, 168, 0.25);
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 0.7);
+    height: 40px;
+}
+.SearchIcon {
+    color: inherit;
+    height: 24px;
+    width: 24px;
+}
+.SearchContent {
+    padding-left: 5px;
+    width: 100%;
+    border: none;
+}
+.SearchInput {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: 0;
+    font-size: inherit;
+    border:none;
+}
+.VerticalLine {
+    background: rgba(255, 255, 255, 0.15);
+    height: 40px;
+    width: 1px;
+    margin: 0 16px;
+}
+.Notification {
+    margin-top:6px;
+ 
+}
+.NotificationLink {
+    padding: 0;
+    background: 0;
+    border: none;
+    cursor: pointer;
+}
+.NotificationIcon {
+    display: flex;
+    width: auto;
+    padding: 0 8px;
+    height: 40px;
+    align-items: center;
+}
+.NotificationImg {
+    color: inherit;
+    height: 24px;
+    width: 24px;
+}
+.NotificationImg > svg {
+    fill: currentColor;
+}
+.RightNav {
+    display:flex;
+    align-items: center;
+}
+.RightNavDropdown {
+    margin-top: 6px;
+}
+.RightNavRule {
+    width: inherit;
+    padding: 0 8px;
+}
+.ProfileMenu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.ProfileMenuContent {
+    margin-right: 8px;
+}
+.ProfileMenu_Button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 2px; 
+    background: none; 
+    border: none; 
+}
+.ProfileMenu_Icon {
+    background-color: #008F46;
+    border-radius: 100%;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    border: none;
+}
+.ProfileMenu_IconText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    color: #f2f2f2;
+}
+
+.ProfileMenu_Dropdown {
+    position: absolute;
+    right: 10px;
+    bottom: -2px;
+    display: none;
+}
+
+.ProfileMenu_Dropwdown_Open{
+    display: block;
+    
+}
+
+.ProfileMenu_DropdownMenu {
+    background:#ffffff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+    list-style: none;
+    margin-left: 0;
+    max-width: 320px;
+    min-width: 160px;
+    padding: 12px 0 8px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(0);
+}
+.DropdownMenu_Item {
+    align-items: center;
+    color: rgba(0, 0, 0, 0.9);
+    cursor:pointer;
+    display: flex;
+    padding: 8px 24px 8px 16px; 
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+    text-decoration:none;
+}
+.DropDownIcon {
+    padding-right: 12px;
+}
+.Dropdownsvg {
+    height: 24px;
+    width: 24px;
+}
+.Dropdown_Text {
+    padding-left: 12px;
+}
+.HorizontalLine {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    margin: 8px 0;
+}
+@media (max-width:1570px) {
+    .SkillsText {
+        display: none;
+    }
+}
+@media (max-width:1023px) {
+    .NavbarButtons {
+        display: none;
+    }
+    .Searchbar {
+        padding: 0;
+    }
+    .VerticalLine {
+        display: none;
+    }
+    .ProfileMenuContent {
+        margin-right: 0;
+    }
+}
+@media (max-width:768px) {
+    .ProfileMenu_Container {
+        display: none;
+    }
+    .RightNav {
+        display: none;
+    }
+}

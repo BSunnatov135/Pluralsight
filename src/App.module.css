@@ -1,0 +1,23 @@
+* {
+  box-sizing: inherit;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  font-family: "PS TT Commons Roman","Gotham SSm A","Gotham SSm B",Arial,sans-serif;
+  font-size: .875em;
+  font-weight: 300;
+  line-height: 1.71429;
+  letter-spacing: -.015em;
+  color: #efefef;
+  font-feature-settings: "tnum" on,"lnum" on;
+  background-color: #0d0f12;
+  overflow-y: scroll;
+}
+body {
+  max-width: 1600px;
+  margin: auto;
+}
+#root {
+  align-items: center;
+
+}

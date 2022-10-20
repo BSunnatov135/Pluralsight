@@ -1,0 +1,215 @@
+* {
+    box-sizing: inherit;
+    font-family: "PS TT Commons Roman","Gotham SSm A","Gotham SSm B",Arial,sans-serif;;
+}
+h3 {
+    letter-spacing: -.015em;
+    font-weight: 300;
+}
+
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    width: 100%;  
+}
+.MainWrapper {
+    display: flex;
+    padding: 30px 60px;  
+    max-width: 100%;
+}
+.MainLeft {  
+    padding: 5px 25px 20px 25px;
+    margin: 0px 24px 24px 24px;
+    border-radius: 8px;
+    background-color: #1e2429;
+    max-width: 100%;
+}
+.MainLeftTitle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+.LeftContainer {
+    width: 75%;
+}
+.MainLeftTitleText {
+    color: rgba(255,255,255,.95);
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    padding-right: 24px;
+    margin: 0;
+    display: inline-block;
+}
+.MainLeftLink {
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(46, 160, 214);
+    text-decoration: none;
+    display: inline-flex;
+}
+.MainLinkIcon {
+    height: 24px;
+    width: 24px;
+    display: inline-flex;
+    font-weight: 500;
+}
+.MainLinkIcon > svg {
+    fill: currentcolor;
+   
+}
+.CarouselContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.CarouselItemWrapper {
+    margin: 0 6px;
+    flex: 1;
+}
+.CarouselItemMargin {
+    margin-left: 0px;
+}
+.CarouselBackground {
+    display: flex;
+    background: rgb(30, 36, 41);
+    height: 96px;
+}
+.CarouselImage {
+    width: 100%;
+    height: 100%;
+}
+
+.CarouselBackgroundImage {
+    background-image: url(https://pluralsight.imgix.net/course-images/rewriting-git-history-v1.png?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+
+.CarouselBackgroundImage_1 {
+    background-image: url(https://pluralsight.imgix.net/course-images/git-branches-working-v1.jpg?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselBackgroundImage_2 {
+    background-image: url(https://pluralsight.imgix.net/course-images/html-css-javascript-getting-started-building-websites-v1.png?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselBackgroundImage_3 {
+    background-image: url(https://pluralsight.imgix.net/course-images/docker-apps-developing-core-principles-v1.jpg?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselBackgroundImage_4 {
+    background-image: url(https://pluralsight.imgix.net/course-images/algorithms-data-structures-part-two-v1.png?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselBackgroundImage_5 {
+    background-image: url(https://pluralsight.imgix.net/course-images/react-fundamentals-update-v1.png?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselBackgroundImage_6 {
+    background-image: url(https://pluralsight.imgix.net/course-images/audience/generic.jpg?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+} 
+.CarouselBackgroundImage_7 {
+    background-image: url(https://pluralsight.imgix.net/course-images/html5-fundamentals-v1.jpg?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselBackgroundImage_8 {
+    background-image: url(https://pluralsight.imgix.net/course-images/working-inheritance-java-se-8-programmer-certification-1z0-808-v1.jpg?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselBackgroundImage_9 {
+    background-image: url(https://pluralsight.imgix.net/course-images/git-administration-v1.png?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselBackgroundImage_10 {
+    background-image: url(https://pluralsight.imgix.net/course-images/angular-2-getting-started-update-v2.png?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselBackgroundImage_11 {
+    background-image: url(https://pluralsight.imgix.net/course-images/microsoft-azure-solutions-architect-design-migrations-v1.png?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselBackgroundImage_12 {
+    background-image: url(https://pluralsight2.imgix.net/projects/assets/projects-card-go.png?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+
+}
+.CarouselBackgroundImage_13 {
+    background-image: url(https://pluralsight2.imgix.net/projects/assets/projects-card-net.png?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselBackgroundImage_14 {
+    background-image: url(https://pluralsight2.imgix.net/projects/assets/projects-card-net.png?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselBackgroundImage_15 {
+    background-image: url(https://pluralsight2.imgix.net/projects/assets/projects-card-angular.png?w=240&amp;h=96&amp;fit=clamp&amp;auto=compress,format);
+}
+.CarouselItemTitle {
+    font-size: 12px;
+    line-height: 20px;
+}
+.CarouselItemHeader {
+    font-size: unset;
+    margin: 0;
+    padding: 0;
+}
+.CarouselItemLink {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 8px;
+}
+.CarouselTitleText{
+    margin-top: 8px;
+    font-weight: 500;
+}
+.CarouselInfo {
+    display: flex;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 100%;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.dot {
+    margin: 0 8px;
+}
+.ChannelWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(138,153,168,.25);
+    height: 153px;
+    color: #fff;
+    width: 25%;
+}
+.ChannelSvg {
+    display: flex;
+    height: 48px;
+    width: 48px;
+    align-items: center;
+}
+.ChannelSubtitle {
+    margin-top: 14px
+}
+@media (max-width:1305px) {
+.ChannelWrapper {
+    width: 50%;
+}
+}
+@media (max-width:1024px) {
+    .ChannelWrapper {
+        width: 33%;
+    }
+}
+@media (max-width:937px) {
+    .ChannelWrapper {
+        width: 50%;
+    }
+}
+@media (max-width:768px) {
+    .ChannelWrapper {
+        width: 33%;
+    }
+}
+@media (max-width:697px) {
+    .ChannelWrapper {
+        width: 50%;
+    }
+}
+@media (max-width:537px) {
+    .ChannelWrapper {
+        width: 100%;
+    }
+}
